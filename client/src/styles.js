@@ -1,19 +1,17 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles(() => ({
-  appBar: {
-    
-    margin: '30px 0',
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: '20px',
-  },
   heading: {
-    color: '#000',
+    color: '#fff',
+    margin: '40px 0',
   },
   image: {
     marginLeft: '15px',
   },
+  footertext:{
+    fontSize: '15px;',
+    marginTop: '150px;',
+    display: 'block',
+    color: '#fff'
+  }
 }));
